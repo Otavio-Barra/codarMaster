@@ -1,0 +1,77 @@
+main section {
+    margin: 4rem auto;
+}
+
+main section .container {
+    max-width: min(90vw, 1200px);
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+main section .container img {
+    max-width: 50%;
+}
+
+main section .container .textInicio p {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+main section .container .textInicio h2 {
+    font-size: 4.3em;
+    margin-bottom: 4rem;
+    color: #D6000D;
+}
+
+main section .container .textInicio .button {
+    font-size: 1.6em;
+    padding: 10px 50px;
+    transition: 250ms;
+}
+
+main section .container .textInicio .button:hover {
+    font-size: 1.8vw;
+}
+
+@media (max-width: 768px) {
+
+    main section .container img {
+        width: 100%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    main section .container {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    main section .container .textInicio p {
+        font-size: 1.8em;
+    }
+
+    main section .container .textInicio h2 {
+        font-size: 4.5em;
+    }
+
+    main section .container .textInicio .button {
+        font-size: 1.9em;
+    }
+
+    main section .container .textInicio {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
