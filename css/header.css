@@ -15,6 +15,7 @@ header .container #colorTitle {
     color: #D6000D;
 }
 
+
 header .container nav #menu {
     display: flex;
     gap: 3rem;

@@ -35,10 +35,16 @@ main section .container .textInicio .button {
 }
 
 main section .container .textInicio .button:hover {
-    font-size: 1.8vw;
+    font-size: 1.8em;
 }
 
 @media (max-width: 768px) {
+
+    main section .container .textInicio .button {
+        transition: 0;
+    }
+
+    main section .container .textInicio .button:hover {}
 
     main section .container img {
         width: 100%;
