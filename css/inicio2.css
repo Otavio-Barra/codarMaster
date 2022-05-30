@@ -40,11 +40,14 @@ section .container .form form input {
     font-size: 1em;
 }
 
-section .container .form button {
-    background-color: #D6000D;
-    padding: 15px 30px;
+section .container .form .button {
     font-size: 1em;
-    color: #fff;
     font-weight: 600;
-    border-radius: 10px;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+
+section .container .form .button:hover {
+    font-size: 1.1em;
 }
