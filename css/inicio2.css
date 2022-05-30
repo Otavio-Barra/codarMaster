@@ -1,4 +1,50 @@
-section .container .list ul {
-    font-size: 1.5em;
+section .container {
+    justify-content: center;
+    align-items: ;
+}
 
+section .container .list ul li {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 1.5em;
+}
+
+section .container .list ul li i {
+    padding-right: 1.3rem;
+    color: #D6000D;
+}
+
+#table {
+    margin-bottom: 0;
+}
+
+#form {
+    margin-top: 0;
+}
+
+section .container .contact p {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+section .container .form {
+    display: flex;
+}
+
+section .container .form form input {
+    background-color: #DCDCDC;
+    padding: 15px 30px;
+    margin-right: 1.7em;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+section .container .form button {
+    background-color: #D6000D;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
 }
