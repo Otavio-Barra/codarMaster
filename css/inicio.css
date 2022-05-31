@@ -57,6 +57,7 @@ main section .container .textInicio .button:hover {
     main section .container {
         flex-direction: column;
         gap: 4rem;
+        margin: 13em auto 20em auto;
     }
 
     main section .container .textInicio p {
@@ -80,4 +81,6 @@ main section .container .textInicio .button:hover {
     body {
         font-size: 12px;
     }
+
+
 }
