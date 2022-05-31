@@ -20,6 +20,7 @@ section .container .list ul li i {
 
 #form {
     margin-top: 0;
+    margin-bottom: 7em;
 }
 
 section .container .contact p {
@@ -57,6 +58,8 @@ section .container .form .button:hover {
         display: flex;
         flex-direction: column-reverse;
     }
+
+
 
     section .container .codar {
         width: 100%;
