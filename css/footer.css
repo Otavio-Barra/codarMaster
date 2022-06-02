@@ -1,0 +1,52 @@
+footer {
+    background-color: #000;
+}
+
+
+footer p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+
+footer .container {
+    max-width: min(90vw, 1400px);
+    margin: 4rem auto;
+    margin-bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8vh;
+    padding-bottom: 9em;
+    align-items: flex-start;
+}
+
+footer .container .footer h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+footer .container .footer h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+footer .container .redeSocial i {
+    color: #D6000D;
+    font-size: 2em;
+    padding-right: 0.5em;
+}
+
+footer .container .contatos p {
+    margin-bottom: 1rem;
+}
+
+footer .container .contatos a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .container .sobre span {
+    display: block;
+}
