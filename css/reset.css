@@ -30,6 +30,12 @@ a {
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 14;
+    }
+}
+
 
 /* HTML5 display-role reset for older browsers */
 article,
