@@ -119,8 +119,6 @@ main section .container .textInicio .button:hover {
         transition: 0;
     }
 
-    main section .container .textInicio .button:hover {}
-
     main section .container img {
         width: 100%;
     }
@@ -163,7 +161,6 @@ main section .container .textInicio .button:hover {
 
 section .container {
     justify-content: center;
-    align-items: ;
 }
 
 section .container .list ul li {
@@ -373,3 +370,4 @@ footer .container .sobre span {
     footer .container {
         font-size: 16px;
     }
+}
